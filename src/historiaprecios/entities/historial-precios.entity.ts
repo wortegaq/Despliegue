@@ -1,5 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, OneToMany, ManyToOne } from 'typeorm';
-import { Elemento } from '../../Elemento/entities/elementos.entity';
+import { Elemento } from '../../elemento/entities/elementos.entity';
 
 
 

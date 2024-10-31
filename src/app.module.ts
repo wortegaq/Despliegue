@@ -3,14 +3,14 @@ import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UsuariosModule } from './usuarios/usuarios.module';
 import { CommonModule } from './common/common.module';
-import { DireccionesModule } from './Direccion/direcciones.module'
-import { ElementosModule } from './Elemento/elementos.module';
-import { FeedbackModule } from './Feedback/feedback.module';
-import { PromocionModule } from './Promocion/promocion.module';
+import { DireccionesModule } from './direccion/direcciones.module'
+import { ElementosModule } from './elemento/elementos.module';
+import { FeedbackModule } from './feedback/feedback.module';
+import { PromocionModule } from './promocion/promocion.module';
 import { CategoriaModule } from './categoria/categoria.module';
 import { HistorialPreciosModule } from './historiaprecios/historial-precios.module';
 import { EstadoOrdenModule } from './estadoorden/estado-orden.module';
-import { FeedbackPromocionModule } from './feedbackpromocion/feedback-promocion.module'; 
+import { FeedbackPromocionModule } from './feedbackPromocion/feedback-promocion.module'; 
 
 
 @Module({
