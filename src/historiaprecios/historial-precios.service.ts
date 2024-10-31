@@ -1,10 +1,10 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
+import { Elemento } from '../elemento/entities/elementos.entity';
 import { HistorialPrecios } from './entities/historial-precios.entity';
 import { CreateHistorialPreciosDto } from './dto/create-historial-precios.dto';
 import { UpdateHistorialPreciosDto } from './dto/update-historial-precios.dto';
-import { Elemento } from '../elemento/entities/elementos.entity';
 
 @Injectable()
 export class HistorialPreciosService {

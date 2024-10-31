@@ -7,10 +7,10 @@ import { DireccionesModule } from './Direccion/direcciones.module'
 import { ElementosModule } from './Elemento/elementos.module';
 import { FeedbackModule } from './Feedback/feedback.module';
 import { PromocionModule } from './Promocion/promocion.module';
-import { FeedbackPromocionModule } from './feedbackpromocion/feedback-promocion.module'; 
 import { CategoriaModule } from './categoria/categoria.module';
 import { HistorialPreciosModule } from './historiaprecios/historial-precios.module';
 import { EstadoOrdenModule } from './estadoorden/estado-orden.module';
+import { FeedbackPromocionModule } from './feedbackpromocion/feedback-promocion.module'; 
 
 
 @Module({
